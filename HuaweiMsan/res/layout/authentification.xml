@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_bak"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txvAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:text="@string/auth"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/pseudo"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="100dip"
+        android:layout_marginTop="10dip"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txvMotdePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/mPass"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtMotdePasse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="100dip"
+        android:layout_marginTop="10dip"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txvNBauthen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/nb4"
+        android:textColor="#FF7755" />
+
+    <TextView
+        android:id="@+id/txvNBauthen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:text="@string/nb5"
+        android:textColor="#FF7755" />
+
+    <Button
+        android:id="@+id/btnValiderAuth"
+        style="@style/btnStylesorbus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dip"
+        android:layout_marginRight="70dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/valider"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+</LinearLayout>
